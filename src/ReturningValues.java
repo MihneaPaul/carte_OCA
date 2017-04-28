@@ -6,7 +6,8 @@ public class ReturningValues {
         number++;
         return number;
     }
-    public static void main(String[] args) {
+    public static void main(String... args) {
+        int a[][];
         int number = 1;
         System.out.println(number(number));
         int x = number(number);
@@ -16,6 +17,7 @@ public class ReturningValues {
         swap(y,z);
     }
     public static void swap(int a, int b){
+//        swap(2,3);
         int temp = a;
         a=b;
         b=temp;
